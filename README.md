@@ -17,6 +17,9 @@ To run (Assuming everything is installed):
   2. Navigate to server folder and type : node app.js
   3. Type npm start in root directory
   
+Webpage output from http://localhost:8080
+Server runs on port 3000
+  
 Known issues:
   1. Cannot retrieve some webpages because payload is too large
   2. Newest job will not finish until another job is input. This may be because I'm using a callback function when the job is saved.
