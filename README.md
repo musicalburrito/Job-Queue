@@ -10,13 +10,14 @@ Create a job queue whose workers fetch data from a URL and store the results in 
  The user asks for the status of the job id and if the job is complete, he gets a response that
  includes the HTML for www.google.com.
 
-For this, I created a barebones UI using React and backend with a job queue and REST API using Kue, Node, Express, and MongoDB. Responses are given to the user using window alerts on the webpage, but feel free to test directly using Postman.
+For this, I assumed that the user was the average joe and created a barebones UI using React. For the backend I created a job queue and REST API using Kue, Node, Express, and MongoDB. Responses are given to the user using window alerts on the webpage, but feel free to test directly using Postman.
 
 To run (Assuming everything is installed):
   1. Navigate to database directory and type : mongod
   2. Navigate to server folder and type : node app.js
   3. Type npm start in root directory
-  
+ 
+Endpoint should be in form: http://some-url.some-domain
 Webpage output from http://localhost:8080
 Server runs on port 3000
   
